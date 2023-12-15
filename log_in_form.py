@@ -6,7 +6,7 @@ window.title("Login Form")
 window.geometry('350x440')
 window.configure(bg="#333333")
 
-def login():
+def login():       #here are the username and password
     username = "johnsmith"
     password = "12345"
     if username_entry.get()==username and password_entry.get()==password:
